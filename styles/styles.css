@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --heading-background-color: darkblue;
     --heading-text-color: ;
@@ -56,11 +62,35 @@ main img {
     border: 3px solid steelblue;
     padding: 5px;
     box-shadow: 0 4px 8px rgb(0 0 0 / 0.2);
+    float: right;
+    margin: 0 0 1rem 1rem;
 
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
