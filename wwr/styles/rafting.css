@@ -8,7 +8,7 @@
     --primary-color: #020202;
     --secondary-color: #ec720e;
     --accent1-color: #233379;
-    --accent2-color: #e9c46a;
+    --accent2-color: #fcfcfc;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -47,6 +47,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -99,4 +100,9 @@ h2 {
     width: 160px;
     border: 1px;
     box-shadow: 0 2px 2px rgb(0 0 0 / 0.1);
+}
+
+.hero article {
+    position: relative;
+    color: var(--accent2-color);
 }
