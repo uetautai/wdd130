@@ -62,8 +62,8 @@ article {
 }
 
 h1 {
-    position: relative;
-    bottom: 430px;
+    position: absolute;
+    bottom: 380px;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -76,7 +76,7 @@ h1 {
 article {
     position: absolute;
     width: 99%;
-    bottom: 60px;
+    bottom: 7px;
     opacity: 0.7;
     color: #fcf9f9;
     background-color: #233379;
