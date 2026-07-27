@@ -120,7 +120,7 @@ header {
 
 }
 
-nav ul {
+.ul ul {
     display: flex;
     list-style-type: none;
     flex-wrap: flex;
