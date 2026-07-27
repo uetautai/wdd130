@@ -108,3 +108,30 @@ h2 {
     position: absolute;
     color: var(--accent2-color);
 }
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: flex;
+    max-width: 900px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+
+}
+
+figure {
+    display: flex;
+
+}

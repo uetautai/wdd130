@@ -8,6 +8,13 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-containe {
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .flex-item {
