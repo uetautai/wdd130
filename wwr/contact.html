@@ -45,7 +45,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d225953.45990113448!2d152.8801076678679!3d-27.762860798485136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slogan!5e0!3m2!1sen!2sus!4v1785837755322!5m2!1sen!2sus"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
             </div>
@@ -66,16 +66,19 @@
                 <div class="form-row purpose-row">
                     <label>Message<br>Purpose</label>
                     <div class="radio-group">
-                        <label>
-                            <input type="radio" name="purpose" value="general" checked>
+                        <label for="purpose-general">
+                            <input type="radio" id="purpose-general" name="purpose" value="general"
+                              checked>
                             General Inquiry
                         </label>
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
+                        <label for="purpose-reservation">
+                            <input type="radio" id="purpose-reservation" name="purpose"
+                              value="reservation">
                             Reservation Question
                         </label>
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
+                        <label for="purpose-suggestion">
+                            <input type="radio" id="purpose-suggestion" name="purpose"
+                              value="suggestion">
                             Website Suggestion
                         </label>
                     </div>
@@ -88,8 +91,8 @@
                 </div>
 
                 <div class="checkbox-row">
-                    <label>
-                        <input type="checkbox" name="newsletter" value="yes">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
                         Please Subscribe me to the monthly newsletter
                     </label>
                 </div>
