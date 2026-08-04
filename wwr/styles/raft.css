@@ -9,10 +9,8 @@ body {
     color: #233379;
 }
 
-/* ========== HEADER ========== */
 header {
     background-color: #d8c7f0;
-    /* light purple */
     padding: 15px 20px;
 }
 
@@ -43,7 +41,6 @@ header nav {
     color: #333;
 }
 
-/* ========== HERO ========== */
 .hero {
     max-width: 900px;
     margin: 30px auto;
@@ -74,7 +71,6 @@ header nav {
     object-fit: cover;
 }
 
-/* ========== HISTORY ========== */
 .history {
     max-width: 900px;
     margin: 40px auto;
@@ -96,7 +92,6 @@ header nav {
     object-fit: cover;
 }
 
-/* ========== ADVENTURE (5 images) ========== */
 .adventure {
     max-width: 900px;
     margin: 40px auto;
@@ -126,7 +121,6 @@ header nav {
     font-size: 0.9rem;
 }
 
-/* ========== FOOTER ========== */
 footer {
     background-color: #d8c7f0;
     padding: 20px;
