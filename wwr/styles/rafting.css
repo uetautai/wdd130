@@ -176,7 +176,6 @@ footer {
     position: static;
     background: none;
     color: var(--primary-color);
-    opacity: 1;
     padding: 0;
     margin-bottom: 0.75rem;
     font-size: 1.8rem;
@@ -245,7 +244,6 @@ footer {
 
 .purpose-row > label {
     text-align: right;
-    font-weight: 600;
     color: #1a1a2e;
     line-height: 1.5;
     padding-top: 0.15rem;
@@ -261,7 +259,6 @@ footer {
     display: flex;
     align-items: center;
     font-weight: normal;
-    cursor: pointer;
     margin: 0;
 }
 
@@ -276,7 +273,7 @@ footer {
 
 .checkbox-row label {
     font-weight: normal;
-    cursor: pointer;
+
 }
 
 .checkbox-row input[type="checkbox"] {
@@ -284,12 +281,11 @@ footer {
 }
 
 .contact-form button {
-    align-self: center;
     margin-left: 140px;
     background-color: var(--accent1-color);
     color: #fff;
-    padding: 0.75rem 2rem;
-    width: 220pz;
+    padding: 0.25rem 10rem;
+    border: none;
     font-size: 1.1rem;
 
 }
