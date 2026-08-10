@@ -642,3 +642,7 @@ footer {
 .trips-table tr:hover {
     background-color: #f8f8f8;
 }
+
+.page-title {
+    display: none;
+}
